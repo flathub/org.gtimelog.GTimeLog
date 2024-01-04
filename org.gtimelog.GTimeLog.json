@@ -2,7 +2,7 @@
   "id": "org.gtimelog.GTimeLog",
   "runtime": "org.gnome.Platform",
   "sdk": "org.gnome.Sdk",
-  "runtime-version": "44",
+  "runtime-version": "45",
   "rename-icon": "gtimelog",
   "rename-desktop-file": "gtimelog.desktop",
   "rename-appdata-file": "gtimelog.appdata.xml",
@@ -24,7 +24,7 @@
         "make mo-files",
         "pip3 install --prefix=/app --no-deps .",
         "install -Dm644 gtimelog.desktop -t /app/share/applications/",
-        "install -Dm644 gtimelog.appdata.xml -t /app/share/appdata/",
+        "install -Dm644 gtimelog.appdata.xml -t /app/share/metainfo/",
         "install -Dm644 src/gtimelog/gtimelog-large.png /app/share/icons/hicolor/256x256/apps/gtimelog.png"
       ],
       "sources": [
