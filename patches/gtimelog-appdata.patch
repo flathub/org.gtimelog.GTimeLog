@@ -1,9 +1,13 @@
 diff --git a/gtimelog.appdata.xml b/gtimelog.appdata.xml
-index 8bc4e75..879ae1d 100644
+index 8bc4e75..78c3f99 100644
 --- a/gtimelog.appdata.xml
 +++ b/gtimelog.appdata.xml
-@@ -3,14 +3,13 @@
-     <id type="desktop">gtimelog.desktop</id>
+@@ -1,25 +1,30 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<application>
+-    <id type="desktop">gtimelog.desktop</id>
++<component type="desktop-application">
++    <id>gtimelog.desktop</id>
      <metadata_license>CC0-1.0</metadata_license>
      <project_license>GPL-2.0</project_license>
 -
@@ -14,16 +18,27 @@ index 8bc4e75..879ae1d 100644
      </description>
      <screenshots>
 -        <screenshot width="878" height="571" type="default">https://gtimelog.org/gtimelog.png</screenshot>
-+        <screenshot type="default">https://gtimelog.org/gtimelog.png</screenshot>
++      <screenshot type="default">
++        <image>https://gtimelog.org/gtimelog.png</image>
++      </screenshot>
      </screenshots>
++    <developer_name>Time Log developers</developer_name>
      <keywords>
          <keyword>time</keyword>
-@@ -22,4 +21,8 @@
-     <component>
-         <translation type="gettext">gtimelog</translation>
-     </component>
+         <keyword>tracking</keyword>
+         <keyword>logging</keyword>
+     </keywords>
++    <launchable type="desktop-id">gtimelog.desktop</launchable>
+     <url type="homepage">https://gtimelog.org/</url>
+-    <updatecontact>marius@gedmin.as</updatecontact>
+-    <component>
+-        <translation type="gettext">gtimelog</translation>
+-    </component>
+-</application>
++    <update_contact>marius@gedmin.as</update_contact>
++    <translation type="gettext">gtimelog</translation>
 +    <content_rating type="oars-1.1" />
 +    <releases>
 +      <release version="0.11.3" date="2019-04-23" />
 +    </releases>
- </application>
++</component>
