@@ -2,7 +2,7 @@
   "id": "org.gtimelog.GTimeLog",
   "runtime": "org.gnome.Platform",
   "sdk": "org.gnome.Sdk",
-  "runtime-version": "46",
+  "runtime-version": "48",
   "rename-icon": "gtimelog",
   "rename-desktop-file": "gtimelog.desktop",
   "rename-appdata-file": "gtimelog.appdata.xml",
